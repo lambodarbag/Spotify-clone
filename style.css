@@ -27,8 +27,9 @@ body {
 .main-content {
     background-color: #121212;
     flex: 1;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     overflow: auto;
+    margin: 0.5rem;
 }
 
 .music-player {
@@ -45,7 +46,7 @@ a {
 
 .nav {
     background-color: #121212;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
     height: 100px;
@@ -74,7 +75,7 @@ a {
 
 .library {
     background-color: #121212;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     height: 100%;
     margin: 0.5rem;
     padding:  0.5rem 0.75rem;
@@ -136,6 +137,11 @@ a {
     width: fit-content;
 }
 
+.dark-badge {
+    background-color: #000;
+    color: #fff;
+}
+
 .sticky-nav {
     position: sticky;
     top: 0;
@@ -143,6 +149,16 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 0.75rem;
+}
+
+.sticky-nav-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item {
+    margin-right: 1rem;
 }
 
